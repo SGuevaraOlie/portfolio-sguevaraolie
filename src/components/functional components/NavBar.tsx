@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import NavLink from './NavLinks'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/solid'
-import MenuOverlay from './menuOverlay'
+import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
 
 

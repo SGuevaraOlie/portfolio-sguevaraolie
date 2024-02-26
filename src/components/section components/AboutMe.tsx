@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useTransition } from 'react'
-import TabButton from './TabButton';
+import TabButton from '../functional components/TabButton';
 
 const TAB_DATA = [
     {
@@ -10,28 +10,25 @@ const TAB_DATA = [
             <div className='flex flex-row justify-between text-xs lg:text-base'>
                 <div className='flex-flex-col'>
                     <h1 className='mb-2'>Front-End</h1>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>React.js</li>
-                    <li>Next.js</li>
-                    <li>Redux</li>
-                    <li>Tailwind CSS</li>
-                    <li>Bootstrap</li>
+                    <p>- HTML</p>
+                    <p>- CSS</p>
+                    <p>- React.js</p>
+                    <p>- Next.js</p>
+                    <p>- Redux</p>
+                    <p>- Tailwind CSS</p>
+                    <p>- Bootstrap</p>
                 </div>
                 <div className='flex flex-col'>
                     <h1 className='mb-2'>Back-End</h1>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                </div>
-                <div className='flex flex-col'>
-                    <h1 className='mb-2'>Database</h1>
-                    <li>Sequelize</li>
-                    <li>PostgreSQL</li>
+                    <p>- Node.js</p>
+                    <p>- Express</p>
+                    <p>- Sequelize</p>
+                    <p>- PostgreSQL</p>
                 </div>
                 <div className='flex flex-col'>
                     <h1 className='mb-2'>Idiomas</h1>
-                    <li>Javascript</li>
-                    <li>TypeScript</li>
+                    <p>- Javascript</p>
+                    <p>- TypeScript</p>
                 </div>
             </div>
         )
@@ -42,17 +39,17 @@ const TAB_DATA = [
         content:(
             <div className='flex flex-row text-xs lg:text-base'>
                 <div className='mr-8'>
-                    <li>Visual Studio Code</li>
-                    <li>GIT</li>
-                    <li>GitHub</li>
-                    <li>Jira</li>
-                    <li>SCRUM</li>
+                    <p>- Visual Studio Code</p>
+                    <p>- GIT</p>
+                    <p>- GitHub</p>
+                    <p>- Jira</p>
+                    <p>- SCRUM</p>
                 </div>
                 <div>
-                    <li>Postman</li>
-                    <li>Insomnia</li>
-                    <li>Figma</li>
-                    <li>Cloudinary</li>
+                    <p>- Postman</p>
+                    <p>- Insomnia</p>
+                    <p>- Figma</p>
+                    <p>- Cloudinary</p>
                 </div>
             </div>
         )
@@ -62,12 +59,12 @@ const TAB_DATA = [
         id: 'Habilidades Blandas',
         content:(
             <div className='flex flex-col justify-center text-xs lg:text-base'>
-                <li>Colaboración</li>
-                <li>Comunicación</li>
-                <li>Liderazgo</li>
-                <li>Trabajo en Equipo</li>
-                <li>Resolución de problemas</li>
-                <li>Comunicación Efectiva</li>
+                <p>- Colaboración</p>
+                <p>- Comunicación</p>
+                <p>- Liderazgo</p>
+                <p>- Trabajo en Equipo</p>
+                <p>- Resolución de problemas</p>
+                <p>- Comunicación Efectiva</p>
             </div>
         )
     },
@@ -76,9 +73,9 @@ const TAB_DATA = [
         id: 'Educación',
         content:(
             <div className='flex flex-col mt-2 text-xs lg:text-base'>
-                    <li>SoyHenry Fullstack Web Developer</li>
-                    <li>Argentina Programa Introducción a la programación</li>
-                    <li>Arrow Academy Introducción a Phyton / POO / DJANGO</li>
+                    <p>- SoyHenry Fullstack Web Developer</p>
+                    <p>- Argentina Programa Introducción a la programación</p>
+                    <p>- Arrow Academy Introducción a Phyton / POO / DJANGO</p>
             </div>
         )
     },
@@ -94,12 +91,12 @@ const AboutMe = () => {
     }
     return (
         <section className='text-white'>
-            <div className='flex flex-col lg:flex-row justify-center items-center mt-48 mb-24s lg:mt-72 lg:mb-48'>
-                <img src='\imagenes\skeleton-typing.gif' alt='esqueleto :3' className='rounded rounded-full h-[80%] w-[80%] lg:mr-48 lg:-ml-2'/>
-                <div className='flex flex-col h-[400px] mt-4 lg:mt-0'>
+            <div className='flex flex-col lg:flex-row justify-center items-center mt-36 mb-24 lg:mt-72 lg:mb-56'>
+                <img src='\imagenes\skeleton-typing.gif' alt='esqueleto :3' className='rounded rounded-full h-[200px] w-[200px] lg:h-[400px] lg:w-[400px] lg:mr-48 lg:-ml-2'/>
+                <div className='flex flex-col h-[400px] mt-2 lg:mt-0'>
                     <h2 className='text-[#ffb826] font-bold mt-8 lg:mt-0 text-2xl lg:text-4xl'>Sobre mí</h2>
                     <p className="text-[#ADB7BE] text-xs lg:text-lg mt-4">Soy un Desarrollador Web Full-Stack con orientación a Front-End, con una firme motivación por ampliar mis conocimientos en todas las áreas del desarrollo web. Soy una persona detallista, eficiente y productiva, que valora trabajar siguiendo buenas prácticas y tiene habilidades efectivas de comunicación, liderazgo y trabajo en equipo.</p>
-                    <div className='flex flex-row justify-between mt-8 text-xs lg:text-base'>
+                    <div className='flex flex-row justify-between mt-6 text-xs lg:text-base space-x-4'>
                         <TabButton selectTab={() => handleTabChange('Tecnologías')} active={tab === 'Tecnologías'}>
                             {" "}
                             Tecnologías{" "}

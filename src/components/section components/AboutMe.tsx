@@ -72,7 +72,7 @@ const TAB_DATA = [
         title: 'Educación',
         id: 'Educación',
         content:(
-            <div className='flex flex-col mt-2 text-xs lg:text-base'>
+            <div className='flex flex-col text-xs lg:text-base'>
                     <p>- SoyHenry Fullstack Web Developer</p>
                     <p>- Argentina Programa Introducción a la programación</p>
                     <p>- Arrow Academy Introducción a Phyton / POO / DJANGO</p>

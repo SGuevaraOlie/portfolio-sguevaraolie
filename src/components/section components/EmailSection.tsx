@@ -1,8 +1,32 @@
+'use client'
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
 const EmailSection = () => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        const data = {
+            email: (e.target as HTMLFormElement).email.value,
+            subject: (e.target as HTMLFormElement).subject.value,
+            message: (e.target as HTMLFormElement).message.value
+        }
+        const JSONdata = JSON.stringify(data);
+        const endpoint = '/api/send'
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSONdata,
+        }
+        const response = await fetch(endpoint, options);
+        const resData = await response.json();
+        console.log(resData);
+        if(response.status === 200) {
+            console.log('Mensaje Enviado');
+        }
+    };
     return (
         <section className='flex flex-col lg:flex-row mb-32 py-24 space-y-12 lg:space-y-0 justify-between'>
             <div className='text-center lg:text-start'>
@@ -19,14 +43,14 @@ const EmailSection = () => {
                 </div>
             </div>
             <div>
-                <form className='flex flex-col w-full lg:w-[600px] space-y-4' action="">
+                <form className='flex flex-col w-full lg:w-[600px] space-y-4' onSubmit={handleSubmit}>
                     <div className='flex flex-col'>
                         <label htmlFor="email" className='text-white block mb-2 text-sm font-medium'>Tu Email:</label>
-                        <input type="email" id='email' required placeholder='tumailaqui@gmail.com' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
+                        <input name='email' type="email" id='email' required placeholder='tumailaqui@gmail.com' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
                     </div>
                     <div className='flex flex-col'>
                         <label htmlFor="subject" className='text-white block mb-2 text-sm font-medium'>Asunto:</label>
-                        <input type="text" id='subject' required placeholder='Motivo de contacto' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
+                        <input name='text' type="text" id='subject' required placeholder='Motivo de contacto' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
                     </div>
                     <div className='flex flex-col'>
                         <label htmlFor="message" className='text-white block mb-2 text-sm font-medium'>Cuerpo del mail:</label>

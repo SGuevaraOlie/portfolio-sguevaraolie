@@ -29,7 +29,7 @@ const EmailSection = () => {
     };
     return (
         <section id='contactForm'>
-            <div className='flex flex-col lg:flex-row mb-28 space-y-12 lg:space-y-0 justify-between'>
+            <div className='flex flex-col lg:flex-row mb-12 mt-32 lg:mb-72 space-y-12 lg:space-y-0 justify-between'>
                 <div className='text-center lg:text-start'>
                     <h5 className='text-4xl font-bold text-[#ffb826] mb-4'>¡Contactame!</h5>
                     <p className='text-[#ADB7BE] text-sm mb-2 max-w-md'>Actualmente estoy buscando nuevas oportunidades para avanzar en mi carrera dentro del campo de la tecnología de la información (IT) y contribuir al crecimiento de una organización. Estoy entusiasmado por explorar roles desafiantes y colaborar en proyectos innovadores que me permitan desarrollar y aplicar mis habilidades.</p>

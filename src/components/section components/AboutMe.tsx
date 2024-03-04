@@ -93,7 +93,7 @@ const AboutMe = () => {
         <section className='text-white' id='about'>
             <div className='flex flex-col lg:flex-row justify-center items-center mt-36 mb-24 lg:mt-72 lg:mb-56'>
                 <img src='\imagenes\skeleton-typing.gif' alt='esqueleto :3' className='rounded rounded-full h-[200px] w-[200px] lg:h-[400px] lg:w-[400px] lg:mr-48 lg:-ml-2'/>
-                <div className='flex flex-col h-[400px] mt-2 lg:mt-0'>
+                <div className='flex flex-col h-[400px] mt-2 lg:mt-0 text-center lg:text-start'>
                     <h2 className='text-[#ffb826] font-bold mt-8 lg:mt-0 text-2xl lg:text-4xl'>Sobre mí</h2>
                     <p className="text-[#ADB7BE] text-xs lg:text-lg mt-4">Soy un Desarrollador Web Full-Stack con orientación a Front-End, con una firme motivación por ampliar mis conocimientos en todas las áreas del desarrollo web. Soy una persona detallista, eficiente y productiva, que valora trabajar siguiendo buenas prácticas y tiene habilidades efectivas de comunicación, liderazgo y trabajo en equipo.</p>
                     <div className='flex flex-row justify-between mt-6 text-xs lg:text-base space-x-4'>

@@ -24,8 +24,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({imgUrl, title, description, gi
                 </div>
             </div>
             <div className='text-white rounded-b-xl bg-[#181818] py-6 px-4 h-[180px]'>
-                <h5 className='text-lg font-semibold'>{title}</h5>
-                <p className='text-[#ADB7BE]'>{description}</p>
+                <h5 className='text-sm lg:text-lg font-semibold'>{title}</h5>
+                <p className='text-[#ADB7BE] text-sm lg:text-lg'>{description}</p>
             </div>
         </div>
     )

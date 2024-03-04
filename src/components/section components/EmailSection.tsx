@@ -59,7 +59,7 @@ const EmailSection = () => {
                             <label htmlFor="message" className='text-white block mb-2 text-sm font-medium'>Cuerpo del mail:</label>
                             <textarea name='message' id='message' required placeholder='Inicia una conversación conmigo' className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'/>
                         </div>
-                        <button type='submit' className='bg-gradient-to-br to-[#ffb826] from-[#96551d] hover:scale-110 lg:text-2xl transition duration-300 ease-in-out text-black font-semibold px-5 rounded-lg w-full'>Envía el mensaje</button>
+                        <button type='submit' className='min-h-[40px] bg-gradient-to-br to-[#ffb826] from-[#96551d] hover:scale-110 lg:text-2xl transition duration-300 ease-in-out text-black font-semibold px-5 rounded-lg w-full'>Envía el mensaje</button>
                         {emailSubmitted && (
                             <p className='text-green-500 text-sm mt-2'>Email enviado correctamente</p>
                         )}

@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
     }, []);
     return (
         <footer className='footer border border-t-[#33353F] border-l-transparent border-r-transparent border-b-transparent text-white w-full'>
-            <div className='p-6 flex flex-col lg:flex-row items-center lg:items-center space-y-2 lg:space-y-0 justify-between w-full'>
+            <div className='p-2 flex flex-col lg:flex-row items-center lg:items-center space-y-2 lg:space-y-0 justify-between w-full'>
                 <p className='text-[#ADB7BE]'>Portfolio hecho por: Santiago Guevara Olié</p>
                 <p id='clock' className='text-2xl text-[#ADB7BE] lg:-ml-[193px]'>{currentTime}</p>
                 <button className='text-[#ADB7BE]'>Sube al inicio ⬆️</button>

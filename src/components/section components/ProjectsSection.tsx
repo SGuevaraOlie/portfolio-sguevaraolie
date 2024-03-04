@@ -22,12 +22,14 @@ const projectsData = [
 
 const ProjectsSection = () => {
     return (
-        <div className='mt-48 mb-12 lg:mt-80 lg:mb-56'>
-            <h1 className='text-center text-4xl font-bold text-[#ffb826] mt-4 mb-8 lg:mb-12'>Mis Proyectos</h1>
-            <div className='grid lg:grid-cols-3 gap-8 lg:gap-12'>
-                {projectsData.map((project) => (<ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} deployUrl={project.deployUrl}/>))}
+        <section id='proyects'>
+            <div className='mt-48 mb-12 lg:mt-80 lg:mb-52'>
+                <h1 className='text-center text-4xl font-bold text-[#ffb826] mt-4 mb-8 lg:mb-12'>Mis Proyectos</h1>
+                <div className='grid lg:grid-cols-3 gap-8 lg:gap-12'>
+                    {projectsData.map((project) => (<ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} deployUrl={project.deployUrl}/>))}
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 

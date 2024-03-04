@@ -90,7 +90,7 @@ const AboutMe = () => {
         })
     }
     return (
-        <section className='text-white'>
+        <section className='text-white' id='about'>
             <div className='flex flex-col lg:flex-row justify-center items-center mt-36 mb-24 lg:mt-72 lg:mb-56'>
                 <img src='\imagenes\skeleton-typing.gif' alt='esqueleto :3' className='rounded rounded-full h-[200px] w-[200px] lg:h-[400px] lg:w-[400px] lg:mr-48 lg:-ml-2'/>
                 <div className='flex flex-col h-[400px] mt-2 lg:mt-0'>

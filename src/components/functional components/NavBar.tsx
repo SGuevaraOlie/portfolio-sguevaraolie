@@ -9,7 +9,7 @@ import Image from 'next/image'
 const navLinks = [
     {
         title: 'Inicio',
-        path: '#'
+        path: '#hero'
     },
     {
         title: 'Sobre mí',

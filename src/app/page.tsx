@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-gradient-to-br from-[#000000] via-[#121212] to-[#2D3436] ">
       <NavBar />
-      <div className="container mt-24 lg:mt-48 mx-auto px-12 lg:px-32">
+      <div className="container mt-28 lg:mt-48 mx-auto px-12 lg:px-32">
         <HeroSection />
         <AboutMe />
         <ProjectsSection />

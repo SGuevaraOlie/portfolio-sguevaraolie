@@ -1,0 +1,66 @@
+{
+    "HeroSection":{
+        "Titulo": "¡Hola! Soy",
+        "Animation1": "Santiago Guevara Olié",
+        "Animation2": "Full-Stack Web Developer",
+        "Animation3": "Programador Versatil",
+        "Animation4": "Entusiasta Front-End",
+        "Button1": "Contactame",
+        "Button2": "Descarga mi CV",
+        "LinkCV": "https://drive.google.com/file/d/1i--ePGAqG3ajdPK3TSJdlLBujsHxNrbo/view?usp=sharing"
+    },
+    "AboutMe":{
+        "Titulo": "Sobre mí",
+        "Parrafo": "Soy un Desarrollador Web Full-Stack con orientación a Front-End, con una firme motivación por ampliar mis conocimientos en todas las áreas del desarrollo web. Soy una persona detallista, eficiente y productiva, que valora trabajar siguiendo buenas prácticas y tiene habilidades efectivas de comunicación, liderazgo y trabajo en equipo.",
+        "Tab1": "Tecnologías",
+        "Tab2": "Metodologías y Herramientas",
+        "Tab3": "Habilidades Blandas",
+        "Tab4": "Educación",
+        "Language": "Idiomas",
+        "SoftSkills": {
+            "A": "Colaboración",
+            "B": "Comunicación",
+            "C": "Liderazgo",
+            "D": "Trabajo en Equipo",
+            "E": "Resolución de problemas",
+            "F": "Comunicación Efectiva"
+        },
+        "Education": {
+            "A": "SoyHenry Fullstack Web Developer",
+            "B": "Argentina Programa Introducción a la programación",
+            "C": "Arrow Academy Introducción a Phyton / POO / DJANGO"
+        }
+    },
+    "ProjectSection": {
+        "ProjectsData": {
+            "CountriesDesc": "Aplicación que permite buscar países y obtener sus datos, así como crear actividades turisticas relacionadas a estos. Proyecto individual para SoyHenry.",
+            "OlimpusDesc": "E-Commerce Deportivo. Proyecto final para SoyHenry"
+        },
+        "Title": "Mis Proyectos"
+    },
+    "EmailSection": {
+        "Title": "¡Contactame!",
+        "P1": "Actualmente estoy buscando nuevas oportunidades para avanzar en mi carrera dentro del campo de la tecnología de la información (IT) y contribuir al crecimiento de una organización. Estoy entusiasmado por explorar roles desafiantes y colaborar en proyectos innovadores que me permitan desarrollar y aplicar mis habilidades.",
+        "P2": "¡No dudes en escribirme, y me pondré en contacto cuanto antes!",
+        "Form": {
+            "Title1": "Tu Email:",
+            "Placeholder1": "tumailaqui@gmail.com",
+            "Title2": "Asunto:",
+            "Placeholder2": "Motivo de contacto",
+            "Title3": "Cuerpo del mail:",
+            "Placeholder3": "Inicia una conversación conmigo",
+            "Button": "Envía el mensaje",
+            "Span": "Email enviado correctamente"
+        }
+    },
+    "Footer":{
+        "P1": "Portfolio hecho por: Santiago Guevara Olié",
+        "Btn": "Sube al inicio"
+    },
+    "NavBar":{
+        "Link1": "Inicio",
+        "Link2": "Sobre mí",
+        "Link3": "Proyectos",
+        "Link4": "Contactame"
+    }
+}

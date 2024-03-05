@@ -6,27 +6,32 @@ import MenuOverlay from './MenuOverlay'
 import Image from 'next/image'
 
 
-const navLinks = [
-    {
-        title: 'Inicio',
-        path: '#hero'
-    },
-    {
-        title: 'Sobre mí',
-        path: '#about'
-    },
-    {
-        title: 'Proyectos',
-        path: '#proyects'
-    },
-    {
-        title: 'Contactame',
-        path: '#contactForm'
-    }
-]
 
-const NavBar: React.FC = () => {
+const NavBar: React.FC<{ language: string; onLanguageChange: (language: string) => void; translations: any }> = ({ language, onLanguageChange, translations }) => {
+    const toggleLanguage = () => {
+        const newLanguage = language === 'es' ? 'en' : 'es';
+        onLanguageChange(newLanguage);
+      };
     const [navBarOpen, setNavBarOpen] = useState(false);
+    const navLinks = [
+        {
+            title: translations.NavBar.Link1,
+            path: '#hero'
+        },
+        {
+            title: translations.NavBar.Link2,
+            path: '#about'
+        },
+        {
+            title: translations.NavBar.Link3,
+            path: '#proyects'
+        },
+        {
+            title: translations.NavBar.Link4,
+            path: '#contactForm'
+        }
+    ]
+    const languageImagePath = language === 'es' ? '/imagenes/spain.png' : '/imagenes/united-states.png';
     return (
         <nav className='fixed top-0 left-0 right-0 z-10 bg-[#262626] bg-opacity-90'>
             <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
@@ -50,8 +55,7 @@ const NavBar: React.FC = () => {
                 </div>
             </div>
             <div className='flex flex-row items-center justify-end -mt-[70px] lg:-mt-16 mb-6 mr-4'>
-                    <Image src="/imagenes/spain.png" alt="EN" width={40} height={40} className="mr-4"/>
-                    <Image src="/imagenes/united-states.png" alt="EN" width={40} height={40}/>
+                <Image src={languageImagePath} alt={language === 'es' ? 'ES' : 'EN'} width={40} height={40} onClick={toggleLanguage} className="mr-4 cursor-pointer"/>
             </div>
             {navBarOpen ? <MenuOverlay links={navLinks}/> : null}
         </nav>

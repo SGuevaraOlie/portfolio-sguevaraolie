@@ -1,0 +1,66 @@
+{
+    "HeroSection": {
+        "Titulo": "Hello! I'm",
+        "Animation1": "Santiago Guevara Olié",
+        "Animation2": "Full-Stack Web Developer",
+        "Animation3": "Versatile Programmer",
+        "Animation4": "Front-End Enthusiast",
+        "Button1": "Contact Me",
+        "Button2": "Download my CV",
+        "LinkCV": "https://drive.google.com/file/d/1D_Ft27o_E5JF6ZFfLD__LT8lhsQRTe33/view?usp=sharing"
+    },
+    "AboutMe": {
+        "Titulo": "About me",
+        "Parrafo": "I am a Full-Stack Web Developer with a focus on Front-End, with a strong motivation to expand my knowledge in all areas of web development. I am a detail-oriented, efficient, and productive person who values working following best practices and has effective communication, leadership, and teamwork skills.",
+        "Tab1": "Technologies",
+        "Tab2": "Methodologies and Tools",
+        "Tab3": "Soft Skills",
+        "Tab4": "Education",
+        "Language": "Languages",
+        "SoftSkills": {
+            "A": "Collaboration",
+            "B": "Communication",
+            "C": "Leadership",
+            "D": "Teamwork",
+            "E": "Problem Solving",
+            "F": "Effective Communication"
+        },
+        "Education": {
+            "A": "SoyHenry - Fullstack Web Developer",
+            "B": "Argentina Programa - Introduction to Programming",
+            "C": "Arrow Academy - Introduction to Python / OOP / DJANGO"
+        }
+    },
+    "ProjectSection": {
+        "ProjectsData": {
+            "CountriesDesc": "Application that allows searching for countries and obtaining their data, as well as creating tourist activities related to them. Individual project for SoyHenry.",
+            "OlimpusDesc": "Sporting E-Commerce. Final project for SoyHenry."
+        },
+        "Title": "My Projects"
+    },
+    "EmailSection": {
+        "Title": "Contact Me!",
+        "P1": "I am currently seeking new opportunities to advance my career in the field of information technology (IT) and contribute to the growth of an organization. I am excited to explore challenging roles and collaborate on innovative projects that allow me to develop and apply my skills.",
+        "P2": "Feel free to contact me, and I will get back to you as soon as possible!",
+        "Form": {
+            "Title1": "Your Email:",
+            "Placeholder1": "youremail@gmail.com",
+            "Title2": "Subject:",
+            "Placeholder2": "Reason for contact",
+            "Title3": "Body of the email:",
+            "Placeholder3": "Start a conversation with me",
+            "Button": "Send message",
+            "Span": "Email sent successfully"
+        }
+    },
+    "Footer": {
+        "P1": "Portfolio made by: Santiago Guevara Olié",
+        "Btn": "Back to top"
+    },
+    "NavBar": {
+        "Link1": "Home",
+        "Link2": "About me",
+        "Link3": "Projects",
+        "Link4": "Contact me"
+    }
+}

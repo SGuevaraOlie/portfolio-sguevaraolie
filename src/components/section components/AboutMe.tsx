@@ -24,6 +24,7 @@ interface AboutSectionProps {
                 A: string;
                 B: string;
                 C: string;
+                D: string;
             }
         }
     }
@@ -72,6 +73,7 @@ const AboutMe: React.FC<AboutSectionProps> = ({ translations }) => {
                         <p>- GitHub</p>
                         <p>- Jira</p>
                         <p>- SCRUM</p>
+                        <p>- Docker</p>
                     </div>
                     <div>
                         <p>- Postman</p>
@@ -104,6 +106,7 @@ const AboutMe: React.FC<AboutSectionProps> = ({ translations }) => {
                         <p>- {translations.AboutMe.Education.A}</p>
                         <p>- {translations.AboutMe.Education.B}</p>
                         <p>- {translations.AboutMe.Education.C}</p>
+                        <p>- {translations.AboutMe.Education.D}</p>
                 </div>
             )
         },

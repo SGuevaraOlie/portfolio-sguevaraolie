@@ -25,10 +25,11 @@
             "E": "Problem Solving",
             "F": "Effective Communication"
         },
-        "Education": {
+        "Education and Work experiece": {
             "A": "SoyHenry - Fullstack Web Developer",
             "B": "Argentina Programa - Introduction to Programming",
-            "C": "Arrow Academy - Introduction to Python / OOP / DJANGO"
+            "C": "Arrow Academy - Introduction to Python / OOP / DJANGO",
+            "D": "Continental Venture Capital LLC - Software Engineer (December 24 - March 25)"
         }
     },
     "ProjectSection": {

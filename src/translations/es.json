@@ -15,7 +15,7 @@
         "Tab1": "Tecnologías",
         "Tab2": "Metodologías y Herramientas",
         "Tab3": "Habilidades Blandas",
-        "Tab4": "Educación",
+        "Tab4": "Educación y experiencias",
         "Language": "Idiomas",
         "SoftSkills": {
             "A": "Colaboración",
@@ -28,7 +28,8 @@
         "Education": {
             "A": "SoyHenry - Fullstack Web Developer",
             "B": "Argentina Programa - Introducción a la programación",
-            "C": "Arrow Academy - Introducción a Phyton / POO / DJANGO"
+            "C": "Arrow Academy - Introducción a Phyton / POO / DJANGO",
+            "E": "Continental Venture Capital LLC - Software Engineer (Diciembre 24 - Marzo 25)"
         }
     },
     "ProjectSection": {

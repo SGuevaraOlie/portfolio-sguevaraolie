@@ -15,7 +15,7 @@
         "Tab1": "Technologies",
         "Tab2": "Methodologies and Tools",
         "Tab3": "Soft Skills",
-        "Tab4": "Education",
+        "Tab4": "Education and Work Experience",
         "Language": "Languages",
         "SoftSkills": {
             "A": "Collaboration",
@@ -25,7 +25,7 @@
             "E": "Problem Solving",
             "F": "Effective Communication"
         },
-        "Education and Work experiece": {
+        "Education": {
             "A": "SoyHenry - Fullstack Web Developer",
             "B": "Argentina Programa - Introduction to Programming",
             "C": "Arrow Academy - Introduction to Python / OOP / DJANGO",
